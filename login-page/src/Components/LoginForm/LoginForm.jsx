@@ -1,32 +1,30 @@
 import React from "react";
-import './LoginForm.css';
+import style from './LoginForm.module.css';
 import { FaUser, FaLock } from "react-icons/fa";
+
 
 
 const LoginForm = () =>{
     return(
-        <div className="wrapper">
+        <div className={style.wrapper}>
             <form action="">
                 <h1>Login</h1>
-                <div className="input-box">
+                <div className={style.inputBox}>
                     <input type="text"
-                    placeholder="Username"  required/>
-                    <FaUser className="icon"/>
+                    placeholder="E-mail"  required/>
+                    <FaUser className={style.icon}/>
                 </div>
-                <div className="input-box">
+                <div className={style.inputBox}>
                     <input type="password" name="password" id="" 
                     placeholder="Senha" required/>
-                    <FaLock className="icon"/>
+                    <FaLock className={style.icon}/>
                 </div>
-                <div className="lembrar-esquecer">
+                <div className={style.lembrarEsquecer}>
                     <label><input type="checkbox" />lembre de mim? <br /></label>
                     <a href="localhost:3000">Esqueceu a senha?</a>
                 </div>
                 <button type="submit">Login</button>
 
-                <div className="link-registro">
-                   <p>Nao tem uma conta?</p><a href="#">Registre</a>
-                </div>
             </form>
         </div>
     );
