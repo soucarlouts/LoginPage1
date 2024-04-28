@@ -4,7 +4,7 @@ import RegisterForm from './Components/RegisterForm/RegisterForm';
 
 function App() {
   return (
-<div style={{display: 'flex', gap: '15px' }}>
+<div style={{display: 'flex', gap: '35px' }}>
 <LoginForm/>
 <RegisterForm/>
 </div>
