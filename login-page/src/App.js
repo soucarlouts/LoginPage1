@@ -8,7 +8,6 @@ function App() {
   return (
 <div 
 style={{display: 'flex', gap: '35px' }}>
-
 <LoginForm/>
 <RegisterForm/>
 </div>
