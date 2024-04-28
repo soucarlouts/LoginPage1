@@ -2,9 +2,12 @@ import React from "react";
 import style from './RegisterForn.module.css';
 import { FaUser, FaLock } from "react-icons/fa";
 
+
 const RegisterForm = () =>{
     return(
-        <div className={style.wrapper}>
+        <div className={style.wrapper}
+        
+        >
             <form action="">
                 <h1>Cadastro-se</h1>
                 <div className={style.inputBox}>
