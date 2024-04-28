@@ -6,7 +6,7 @@ const RegisterForm = () =>{
     return(
         <div className={style.wrapper}>
             <form action="">
-                <h1>Registre-se</h1>
+                <h1>Cadastro-se</h1>
                 <div className={style.inputBox}>
                     <input type="text"
                     placeholder="E-mail"  required/>
@@ -25,7 +25,7 @@ const RegisterForm = () =>{
                 <div className={style.lembrarEsquecer}>
                     <label><input type="checkbox" />lembrar de mim? <br /></label>
                 </div>
-                <button type="submit">Registrar</button>
+                <button type="submit">Cadastrar</button>
 
             </form>
         </div>        
